@@ -1,0 +1,13 @@
+
+// La @forward regla carga una hoja de estilos Sass y permite que sus mixins , funciones y variables 
+//estén disponibles cuando se carga la hoja de estilos con la @use regla . Esto permite organizar 
+//las bibliotecas Sass en varios archivos, permitiendo a los usuarios cargar un único  
+//archivo de punto de entrada.
+
+
+@forward "header";
+@forward "video";
+@forward "festival";
+@forward "lineup";
+@forward "boletos";
+@forward "footer";
