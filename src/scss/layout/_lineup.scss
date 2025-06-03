@@ -1,5 +1,6 @@
 @use "base/variables" as v;
 @use "base/mixins" as m;
+@use "sass:color";
 
 .lineup{
     background-color: v.$rosa;
@@ -43,12 +44,12 @@ h3, .dia{
 .bg-amarillo{
     background-color: v.$amarillo;
     li:nth-child(odd){
-        background-color: lighten(v.$amarillo, 8%);
+        background-color: color.adjust(v.$amarillo, $lightness: 8%);
     }
 }
 .bg-verde{
         background-color: v.$verde;
     li:nth-child(odd){
-        background-color: lighten(v.$verde, 7%);
+        background-color: color.adjust(v.$verde, $lightness: 7%);
     }
 }

@@ -1,4 +1,5 @@
-node_modules
-gulpfile.js
-package-lock.json
-package.json
+festivalmusica/gulpfile.js
+festivalmusica/package-lock.json
+festivalmusica/package.json
+/node_modules
+

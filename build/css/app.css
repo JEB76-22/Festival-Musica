@@ -434,7 +434,7 @@ body > section {
 }
 .video .overlay {
   position: absolute;
-  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(56.7272727273, 22.7878787879, 73.2121212121, 0.9));
+  background: linear-gradient(270deg, rgba(117, 47, 151, 0.6), rgba(169.0909090909, 94.8484848485, 205.1515151515, 0.9));
   inset: 0;
   display: flex;
   align-items: center;
@@ -711,7 +711,7 @@ h3, .dia {
   transition: background-color 0.3s ease-in;
 }
 .pase-footer p:hover {
-  background-color: rgb(56.7272727273, 22.7878787879, 73.2121212121);
+  background-color: rgb(169.0909090909, 94.8484848485, 205.1515151515);
 }
 
 .footer {
